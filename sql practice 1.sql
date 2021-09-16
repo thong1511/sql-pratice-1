@@ -8,7 +8,7 @@ CREATE TABLE sales_overview (
 --- create 2nd table
 CREATE TABLE product_perf (
 	months VARCHAR(15),
-	classified VARCHAR(40),
+	title VARCHAR(40),
 	product_id INT FOREIGN KEY REFERENCES sales_overview(product_id)
 );
 
