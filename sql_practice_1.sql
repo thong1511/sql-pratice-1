@@ -80,3 +80,4 @@ GROUP BY
      c.products, 
      product_perf.product_id
 ORDER BY c.products;
+
